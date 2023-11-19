@@ -141,3 +141,34 @@ padding-bottom: 60px;
 .team-title{
     text-align: center;
 }
+.filters-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+}
+button{
+    border-radius: 4px;
+    border: none;
+    padding: 6px 22px;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+
+}
+.section-portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
